@@ -1,6 +1,6 @@
 ### Activity Classification ###
 This project aims to classify the current activity of the person using accelerometer data only. 
-The board used in the project is an Arduino Nano BLE Sense board which has an in-built accelerometer sensor of sampling frequency of 119 Hz and can detect accelerations in all three directions. The model was trained on Google colab using data collected from a Smart-phone which has a sample rate of 3.2 kHz. The data was preprocessed to make the data around 80-90 Hz.
+The board used in the project is an Arduino Nano BLE Sense board which has an in-built accelerometer sensor of sampling frequency of 119 Hz and can detect accelerations in all three directions. The model was trained on Google Colab using data collected from a Smart-phone which has a sample rate of 3.2 kHz. The data was preprocessed to make the data around 80-90 Hz.
 
 Currently, the model can predict 3 activities:
 1. Standing
